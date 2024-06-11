@@ -1,0 +1,375 @@
+*{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-upper{
+    display: flex;
+    background-color: #0F1111;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 50px;
+    width: 100%;
+}
+
+.border:hover{
+   border: 2px solid white;
+}
+/** box2 **/
+
+.line-1{
+    font-size: 0.85rem;
+    margin-left:18px;
+}
+
+.line-2{
+    font-weight: 700;
+}
+/** box3 **/
+
+.nav-searchbar{
+    display: flex;
+    width: 50%;
+    background-color: pink;
+    height: 38px;
+    border-radius: 4px;
+    justify-content: space-evenly;
+}
+
+.nav-searchbar:hover{
+    border: 2px solid #febd68;
+}
+.search-categories{
+    height: 38px;
+    width: 41px;
+    font-size: 0.85rem;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    background-color: #f3f3f3;
+}
+
+.nav-search{
+    width: 100%;
+    height: 36px;
+    font-size: 1rem;
+    border: none;
+}
+
+.search-icon{
+    width: 45px;
+    height: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    background-color: #febd68;
+}
+
+/** box 5,6**/
+
+.line1-1{
+    font-size: 0.85rem;
+}
+
+/** box 7**/
+
+.nav-cart i{
+    font-size: 25px;
+}
+
+.nav-cart{
+    display: flex;
+}
+
+.cart{
+    margin-left: 5px;
+}
+
+/**navbar-lower**/
+
+.panel{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #222f3d;
+    color: white;
+    height: 39px;
+    width: 100%;
+    align-items: center;
+    font-size: 0.85rem;
+
+}
+
+.panel p:hover{
+    border: 2px solid white;
+}
+
+/** Hero-section**/
+
+.hero-section{
+    background-color: #e2e7e6;
+}
+.hero-section img{
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 98.5%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.boxes{
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+.hero-1{
+    position: relative;
+    top: -100px;
+}
+
+.hero-2{
+    position: relative;
+    top: -100px;
+}
+.box-1,.box-2,.box-3,.box-4{
+    justify-content: space-evenly;
+    width: 100%;
+    height: 400px;
+    margin:10px;
+    background-color: white;
+}
+
+.box-4{
+    height: 200px;
+}
+
+.hero1,.hero2,.hero3,.hero4{
+    margin: 20px;
+}
+.inner-box-1-1,.inner-box-1-2,.inner-box-1-3,.inner-box-1-4{
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 40%;
+    height: 130px;
+    margin:10px 10px 25px 10px;
+    border: 1px solid black;
+    background-color: white;
+    background-repeat: no-repeat;
+    align-items: end;
+    padding-top: 20px;
+}
+
+.inner-box-1-1{
+    background-image: url("images/pick\ where\ you\ let\ off/stick.jpg");
+}
+
+.inner-box-1-2{
+    background-image: url("images/pick\ where\ you\ let\ off/stick\ lite.jpg");
+}
+
+.inner-box-1-3{
+    background-image: url("images/pick\ where\ you\ let\ off/stick\ r4k.jpg");
+}
+
+.inner-box-1-4{
+    background-image: url("images/pick\ where\ you\ let\ off/stick\ 4k\ max.jpg");
+}
+
+.inner-box-2-1{
+    width: 100%;
+    height: 300px;
+    margin-top: 5px;
+    display: flex;
+    background-color: #e2e7e6;
+    background-image: url("images/keep\ shopping\ for/headphones.jpg");
+    background-size: cover;
+    justify-content:center;
+    align-items: end;
+    padding-top: 20px;
+}
+
+
+.inner-box-3-1{
+    background-image: url("images/Sale/electronics.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 280px;
+    position: relative;
+    left: -20px;
+    top: 10px;
+}
+
+.inner-box-3-1 a{
+    position: relative;
+    top: 300px;
+    left: 10px;
+    color: #007185;
+    font-size: 0.85rem;
+}
+.inner-box-3-1 a:hover{
+    color: red;
+}
+
+/**footer**/
+
+.back-to-top button{
+    background-color: #37475a;
+    height: 50px;
+    width: 100%;
+    align-items: center;
+    color: white;
+}
+
+.back-to-top button:hover{
+    background-color: #4c5f76;
+}
+.footer{
+    height:400px;
+    width: 100%;
+    background-color: #232F3E;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+
+}
+
+.f-box-1,.f-box-2,.f-box-3,.f-box-4{
+    color: white;
+    justify-content: space-evenly;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 0.85rem;
+}
+
+.f-box-1 p{
+    padding: 8px;
+}
+
+.f-box-2 p{
+    padding: 8px;
+}
+
+.f-box-2 a{
+    color: white;
+    padding: 8px;
+    text-decoration: none;
+}
+
+.f-box-3 p{
+    padding: 8px;
+}
+
+.f-box-4 p{
+    padding: 8px;
+}
+
+.f-inner-box-1,.f-inner-box-2,.f-inner-box-3,.f-inner-box-4{
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+
+.copyright{
+    background-color: #131A22;
+    color: white;
+    font-size: 0.85em;
+    height: 60px;
+    width: 100%;
+    padding-top: 20px;
+}
+
+.copyright-line-1 ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.copyright-line-1 ul li{
+    list-style-type: none;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.copyright-line-2 p{
+    display: flex;
+    padding-top: 8px;
+    justify-content: center;
+}
+
+@media screen and (max-width:700px){
+    header{
+        width:768px;
+        font-size: 0.75rem;
+    }
+    
+    p{
+        font-size: 0.6rem;
+    }
+
+    option{
+        font-size: 0.6rem;
+    }
+
+    .line1-1{
+        font-size: 0.7;
+    }
+     
+    .nav-language{
+        margin-left: 5px;
+    }
+
+    .box5{
+        margin-left: 5px;
+    }
+    .nav-cart{
+        margin-left: 5px;
+    }
+
+    .responsive-logo{
+        width: min-content;
+    }
+    
+    .panel-responsive{
+        display: none;
+    }
+
+    .panel{
+        display: flex;
+       justify-content: space-evenly;
+       align-items: center;   
+    }
+    
+    .hero-section{
+       width: min-content;
+    }
+    
+    .hero-section img{
+        width: 768px;
+        margin: 0px;
+    }
+    .hero-1{
+        width: 768px;
+    }
+
+    .inner-box-1-1,.inner-box-1-2,.inner-box-1-3,.inner-box-1-4{
+       width: min-content;
+    }
+    .hero-2{
+        width: 768px;
+    }
+
+    footer{
+        width:768px;
+        
+    }
+
+}
